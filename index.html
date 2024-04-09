@@ -10,29 +10,67 @@
     <!-- CSS -->
     <link rel="stylesheet" href="./css/styles.css">
     <title>MentiB</title>
+    
 </head>
 
 <body>
-    <!-- Navigation -->
-    <header class="navigation">
-        <div class="inline-block logo">
-            <img src="./assets/Logo.png" alt="My Logo" width="15%">
+    <div class = "ombre-background">
+  
+    <!-- Header -->
+    <header class="logo">
+        <div class="logoContainer">
+            <div class="inline-block logo">
+                <img src="./assets/Logo.png" alt="My Logo" width="100px">
+            </div>
+            <h3>MentiB</h3>
         </div>
-        <nav class="inline-block">
-        <ul>
-            <li class="inline-block">Home</li>
-            <li class="inline-block">About</li>
-            <li class="inline-block">Prototype</li>
-        </ul>
-        </nav>
     </header>
 
-   <h1>MentiB</h1>
+    <!-- Content -->
+    <div class="contentContainer">
 
+        <!-- About -->
+        <div class="about">
+            <p>MentiB has developed a community-based app to help people with mental health issues improve their emotional well-being by providing a safe space where users can follow forums, join chat rooms, and be apart of support groups.
+                <br>
+                We are cultivating a community that is well-informed and empathetic which leaves you feeling a sense of belonging and empowered.
+            </p>
+        </div>
 
-    <!-- Button With Link to Hi Fi Prototype -->
-    <a href="https://www.figma.com/proto/Ujp3z4py3STqCLihfd0poz/MentiB?type=design&node-id=71-2121&viewport=100%2C1002%2C0.26&t=ACuFNVZpFXQUR5xU-0&scaling=min-zoom&starting-point-node-id=168%3A2018&show-proto-sidebar=1">
-        <button>View Prototype</button>
-    </a>
+        <!-- Login/Signup -->
+        <div class="login">
+            <div class="email">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="password">
+                <input type="password" placeholder="password">
+            </div>
+            <a href="https://www.figma.com/proto/Ujp3z4py3STqCLihfd0poz/MentiB?type=design&node-id=71-2121&viewport=100%2C1002%2C0.26&t=ACuFNVZpFXQUR5xU-0&scaling=min-zoom&starting-point-node-id=168%3A2018&show-proto-sidebar=1">
+                <button class="login-button">Login</button>
+            </a> 
+        </div>
+    
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <h4 class="footerHead">Contact us!</h4>
+        <ul class="footer">
+            <div class="socialIcon">
+                <img src="./assets/Google Icon.png" width="40px">
+            </div>
+            <div class="socialIcon">
+                <img src="./assets/Instagram Icon.png" width="40px">
+            </div>
+            <div class="socialIcon">
+                <img src="./assets/Facebook Icon.png" width="40px">
+            </div>
+            <div class="socialIcon">
+                <img src="./assets/LinkedIn Icon.png" width="40px">
+            </div>
+        </ul>
+    </footer>
+
+</div>
 </body>
 </html>

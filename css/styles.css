@@ -1,8 +1,48 @@
-body {
-    background-color: rgb(189,225,242);
-    background-color: linear-gradient(90deg, rgba(189,225,242,1) 35%, rgba(200,184,233,1) 100%);
+.ombre-background{
+    background-image:linear-gradient(to bottom, #BDE1F2, #C8B8E9);
 }
 h1 {
     font-size: 60pt;
     text-align: center;
+}
+div.logo {
+    width: 23%;
+    padding: 30px;
+}
+p {
+  width: 400px;
+  color:#5753AB;
+    
+}
+.contentContainer{
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+    justify-content: space-around;
+    margin-top:200px;
+}
+
+/* Footer */
+footer {
+    background-color: #aaaadc;
+    width: 100%;
+}
+.footerHead {
+    padding-left: 5%;
+    padding-top: 2%;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+footer ul {
+    display: flex;
+    flex-direction: row;
+    vertical-align: top;
+    justify-content: left;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+}
+.socialIcon {
+    padding-right: 3px;
+    cursor: pointer;
 }
