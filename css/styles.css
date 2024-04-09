@@ -58,6 +58,7 @@ input{
     border: 2px solid #5753AB;
     padding: 10px;
     box-shadow: 2px 2px 2px #5753AB;
+    font-family: 'Quicksand', sans-serif;
 }
 .login-button {
     border-radius: 30px;
