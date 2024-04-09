@@ -1,25 +1,71 @@
 .ombre-background{
     background-image:linear-gradient(to bottom, #BDE1F2, #C8B8E9);
 }
-h1 {
-    font-size: 60pt;
+h3 {
     text-align: center;
+    margin-top: 35px;
+    margin-left: 5px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    color:#5753AB;
 }
 div.logo {
-    width: 23%;
-    padding: 30px;
+    padding: 30px 0px 30px 30px;
+}
+.logoContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 p {
-  width: 400px;
+  width: 650px;
   color:#5753AB;
-    
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  font-size: 16pt;
 }
 .contentContainer{
     display: flex;
     flex-direction: row;
     margin-left: 150px;
-    justify-content: space-around;
-    margin-top:200px;
+    margin-right: 1pt;
+    margin-top: 50px;
+    margin-bottom: 125px;
+    align-items: center;
+}
+.login {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 1%;
+    background-color: #C8B8E9;
+    border: 2px solid white;
+    border-radius: 15px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.email {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.password {
+    padding-bottom: 25px;
+}
+input{
+    border-radius: 30px;
+    border: 2px solid #5753AB;
+    padding: 10px;
+    box-shadow: 2px 2px 2px #5753AB;
+}
+.login-button {
+    border-radius: 30px;
+    border: 2px solid white;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    background-color: #5753AB;
+    box-shadow: 2px 2px 2px #5753AB;
 }
 
 /* Footer */
@@ -28,19 +74,20 @@ footer {
     width: 100%;
 }
 .footerHead {
-    padding-left: 5%;
-    padding-top: 2%;
+    padding-left: 50px;
+    padding-top: 20px;
     font-family: 'Quicksand', sans-serif;
     color: white;
+    font-size: 20pt;
 }
 footer ul {
     display: flex;
     flex-direction: row;
     vertical-align: top;
     justify-content: left;
-    padding-left: 5%;
-    padding-bottom: 5%;
-    padding-right: 5%;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
 }
 .socialIcon {
     padding-right: 3px;
