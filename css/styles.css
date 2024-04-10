@@ -29,8 +29,8 @@ p {
     flex-direction: row;
     margin-left: 150px;
     margin-right: 1pt;
-    margin-top: 50px;
-    margin-bottom: 125px;
+    margin-top: 150px;
+    margin-bottom: 225px;
     align-items: center;
 }
 .login {
